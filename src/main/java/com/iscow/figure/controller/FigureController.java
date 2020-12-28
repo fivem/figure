@@ -10,6 +10,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class FigureController {
     @GetMapping("/figure/{num}")
     public String figure(@PathVariable("num") Integer num){
-        return num + " figured";
+        return num + " figured hook";
     }
 }
